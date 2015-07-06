@@ -1,6 +1,10 @@
 /**
  * Created by Administrator on 2015/7/6.
  */
-function drag(){
+function drag(id){
+	var obj = document.getElementById(id);
 
+	obj.onmousedown = function(){
+
+	};
 }
